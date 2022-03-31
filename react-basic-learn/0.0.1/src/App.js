@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+// import Test1 from "./test/basic/test";
+// import TestJsx from "./test/basic/test-jsx";
+// import TestCompoentProp from "./test/basic/test-compoent-prop";
+// import TestLifeCycle from "./test/basic/test-life-cycle";
+import TestProps from "./test/basic/test-props";
+import TestState from './test/basic/test-state'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Test1></Test1>*/}
+      {/*<TestJsx></TestJsx>*/}
+      {/*<TestCompoentProp name={'hsf'}></TestCompoentProp>*/}
+      {/*<TestLifeCycle></TestLifeCycle>*/}
+      {/*<TestState></TestState>*/}
+      <TestProps></TestProps>
     </div>
   );
 }
