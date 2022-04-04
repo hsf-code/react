@@ -7,7 +7,9 @@ import React from 'react';
  * dom 渲染包 对于pc 和 phone 的渲染的结果，有所不同
  * */
 import ReactDOM from 'react-dom';
-
+import {
+  BrowserRouter
+} from "react-router-dom";
 // 其他混入
 import './index.css';
 import App from './App';
@@ -19,7 +21,9 @@ import reportWebVitals from './reportWebVitals';
  * */
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
